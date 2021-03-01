@@ -3,6 +3,11 @@ import unittest
 from ddt import ddt, data, unpack
 from selenium import webdriver
 
+"""
+DDT Es una metodología utilizada en el testing de software (Se puede usar con selenium) y 
+esto va ayudar que las automatizaciones sean mucho mas robustas y versátiles.
+"""
+
 # Siempre agregar el decorador DDT justamente antes de donde se encuentra nuestra clase de prueba
 @ddt
 class SearchDDT(unittest.TestCase):
