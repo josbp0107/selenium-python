@@ -1,6 +1,10 @@
 import unittest
 from selenium import webdriver
 from time import sleep
+"""
+    Esta clase se encarga de comparar un texto el cuanto cuenta con un typo y este cuenta el numero de veces
+    que demora en encontrar la palabra correcta.
+"""
 
 
 class Typos(unittest.TestCase):
